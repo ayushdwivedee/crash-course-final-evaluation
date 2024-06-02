@@ -1,6 +1,7 @@
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 
-const Error = () => {
+const Err = () => {
   return (
     <Box>
       {alert("error occured in getting data")}
@@ -8,4 +9,4 @@ const Error = () => {
   )
 }
 
-export default Error
+export default Err
