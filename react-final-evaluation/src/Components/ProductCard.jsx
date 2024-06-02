@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardHeader, CardBody ,Heading, Stack, StackDivider, Box ,Text} from '@chakra-ui/react'
+import { Card, CardHeader, CardBody ,Heading, Stack, StackDivider, Box ,Text, Button} from '@chakra-ui/react'
 
 const ProductCard = ({title,category,price}) => {
 
@@ -38,6 +38,7 @@ const ProductCard = ({title,category,price}) => {
              {price}
           </Text>
         </Box>
+        <Button variant="outline" colorScheme='teal'>More Details</Button>
       </Stack>
     </CardBody>
   </Card>
