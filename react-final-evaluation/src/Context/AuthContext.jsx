@@ -3,7 +3,7 @@ import React, { createContext, useState } from "react";
 export const AuthContext =  createContext();
 
 export function AuthContextProvider({ children }) {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [token, setToken] = useState(null);
   const [emailer, setEmailer] = useState(null);
 
